@@ -1561,6 +1561,69 @@ button, input, select, textarea {
   background-position: center;
   background-size: cover; }
 
+/* Work Ex page photos */
+.timeline-bg05,
+.timeline-bg05-01,
+.timeline-bg06,
+.timeline-bg06-01,
+.timeline-bg07,
+.timeline-bg07-01,
+.timeline-bg08,
+.timeline-bg08-01 {
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
+  filter: grayscale(100%);
+  filter: url(../images/grayscale.svg#greyscale);
+  /* Firefox 4+ */
+  filter: gray;
+  /* IE 6-9 */
+  -moz-transition: all .5s ease-in-out;
+  -webkit-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out; }
+
+.timeline-bg05 {
+  background: url("../images/timeline-1.jpg");
+  background-position: center;
+  background-size: cover; }
+
+.timeline-bg05-01 {
+  background: url("../images/nvidia4.jpg");
+  background-position: center;
+  background-size: cover; }
+
+.timeline-bg06 {
+  background: url("../images/timeline-2.jpg");
+  background-position: center;
+  background-size: cover; }
+
+.timeline-bg06-01 {
+  background: url("../images/nvidia4.jpg");
+  background-position: center;
+  background-size: cover; }
+
+.timeline-bg07 {
+  background: url("../images/timeline-3.jpg");
+  background-position: center;
+  background-size: cover; }
+
+.timeline-bg07-01 {
+  background: url("../images/nvidia4.jpg");
+  background-position: center;
+  background-size: cover; }
+
+.timeline-bg08 {
+  background: url("../images/timeline-4.jpg");
+  background-position: center;
+  background-size: cover; }
+
+.timeline-bg08-01 {
+  background: url("../images/timeline-4-01.jpg");
+  background-position: center;
+  background-size: cover; }
+
+
 /* Counts Block */
 .bg-light .counts {
   color: #ffffff; }
